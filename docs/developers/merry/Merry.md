@@ -22,7 +22,7 @@ Filler is a bot to fill orders based on strategies set, learn more about it in t
 ## Installation
 
 :::note
-Merry has support for arm64 and amd64 architectures. For Windows users, you are required to use Windows Subsystem for Linux (WSL) to run Merry.
+Merry supports arm64 and amd64 architectures. For Windows users, you are required to use Windows Subsystem for Linux (WSL) to run Merry.
 :::
 
 ### Prerequisites
@@ -33,7 +33,7 @@ Before using Merry, ensure you have Docker installed and running on your system.
 
 <Tabs>
 <TabItem value="unix" label="Linux & MacOS" default>
-In a terminal
+Run the following command to install Merry
 
 ```bash
 curl https://get.merry.dev | bash
@@ -41,7 +41,7 @@ curl https://get.merry.dev | bash
 
 </TabItem>
 <TabItem value="windows" label="Windows">
-In a WSL terminal, run `sudo dockerd` and check if the docker daemon is running, then
+In a WSL terminal, run `sudo dockerd` and verify if the docker daemon is running, then
 
 ```bash
 curl https://get.merry.dev | bash
